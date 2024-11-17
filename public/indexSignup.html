@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="stylesLogin.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" />
+</head>
+
+<body>
+    <div class="logindesktop1">
+        <div class="main-container">
+            <div class="signinnavbarrectangle1"></div>
+            <div class="content-area">
+                <img class="logogroup-icon" loading="lazy" alt="" src="LOGO(Group).png" />
+                <div class="navigation-panel">
+                    <div class="books">BOOKS</div>
+                </div>
+            </div>
+            <nav class="frame-parent">
+                <div class="home-wrapper">
+                    <div class="home"></div>
+                </div>
+                <button class="container-parent">
+                    <div class="container" id="container"></div>
+                    <b class="sign-up" id="Login">Login</b>
+                </button>
+            </nav>
+        </div>
+        <main class="login-form-container">
+            <section class="login-panel">
+                <div class="login-content-area">
+                    <div class="login-fields-area">
+                        <div class="username-input-area-wrapper">
+                            <div class="username-input-area">
+                                <div class="welcome-message-area">
+                                    <div class="welcome-back">Registration!</div>
+                                    <div class="dont-have-a-container">
+                                        <span>Please enter details to create a free account</span>
+                                    </div>
+                                </div>
+                                <form action="/register" method="POST"> 
+                                    <div class="password-input-area-wrapper">
+                                        <div class="password-input-area">
+                                            <div class="username">Email</div>
+                                            <input class="outcome-notice" id="email" name="email" type="text" placeholder="e.g., eng00xx0000@dsu.edu.in" />
+                                        </div>
+                                    </div>
+                                    <div class="forgot-password-link-area-wrapper">
+                                        <div class="forgot-password-link-area">
+                                            <div class="password">New Password</div>
+                                            <input class="delivery-receipt" id="password" name="password" type="password" placeholder="password" />
+                                            <div class="password-reminder">
+                                                <div class="forget-password"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sign-in-parent">
+                                        <button type="submit" class="sign-in">Submit</button> 
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brand-image-area">
+                        <img class="image-icon" loading="lazy" alt="" src="Image(login nad Sign up page).png" />
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        document.querySelector(".sign-in-parent").addEventListener("click", function () {
+            window.location.assign("indexRegistrationSuccessful.html");
+        });
+
+        document.querySelector(".sign-up").addEventListener("click", function () {
+            window.location.assign("indexLogin.html");
+        });
+    </script>
+</body>
+
+</html>

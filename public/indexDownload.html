@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="stylesDownload.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+</head>
+<body>
+    <div class="download">
+        <section class="signinnavbarrectangle1-parent">
+            <div class="signinnavbarrectangle1"></div>
+            <nav class="logogroup-parent">
+                <img class="logogroup-icon" loading="lazy" alt="" src="LOGO(Group).png" />
+
+                <div class="books-wrapper">
+                    <div class="books">BOOKS</div>
+                </div>
+            </nav>
+            <nav class="navigation">
+                <div class="home-wrapper">
+                    <a class="home" id="hOMEText1">HOME</a>
+                </div>
+                <div class="collection-wrapper">
+                    <a class="collection" id="cOLLECTIONText">COLLECTION</a>
+                </div>
+                <div class="about-wrapper">
+                    <a class="about" id="aBOUTText">ABOUT</a>
+                </div>
+                <div class="item-parent">
+                    <div class="item" id="item"></div>
+                    <a class="log-out" id="lOGOUTText">LOG OUT</a>
+                </div>
+            </nav>
+        </section>
+        <section class="content">
+            <div class="book-details">
+                <img class="book-details-child" alt="" src="CompArchimage.jpg" />
+
+                <div class="book-info">
+                    <button class="rectangle-parent">
+                        <b class="about-this-book">About this Book</b>
+                        <div class="book-computer-container">
+                            <span class="book">Book</span>
+                            <span class="computer-architecture">: Computer Architecture</span>
+                        </div>
+                        <div class="author-john-l-hennessy-and-wrapper">
+                            <div class="author-john-container">
+                                <span class="author">Author</span>
+                                <span class="john-l-hennessy">: John L. Hennessy and David A. Patterson</span>
+                            </div>
+                        </div>
+                    </button>
+                    <div class="download-button-wrapper">
+                        <form action="/download/CSE2.pdf" method="get">
+                            <button type="submit" style="
+                                background-color: #FFC107; 
+                                color: black; 
+                                border: 2px solid black; 
+                                border-radius: 20px; 
+                                padding: 20px 40px; 
+                                font-size: 30px; 
+                                font-family:'Barlow'; 
+                                font-weight:600;
+                                cursor: pointer;
+                                display: flex; 
+                                align-items: center;
+                            ">
+                                <img src="DownloadVector.png" alt="Download Icon" style="width: 30px; height: 30px; margin-right: 10px;">
+                                Download
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footergroup">
+            <div class="footerrec1"></div>
+            <div class="line-parent">
+                <div class="frame-item"></div>
+                <div class="footer-content">
+                    <div class="copyright">
+                        <img class="copyright-logo-icon" loading="lazy" alt="" src="Copyright Logo.png" />
+                        <div class="books-all-rights-reserved-wrapper">
+                            <div class="books-all-rights">2024 BOOKS All rights reserved</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="img2footer-icon" loading="lazy" alt="" src="IMG2(Footer).png" />
+            <div class="frame-parent">
+                <div class="frame-group">
+                    <div class="join-us-for-new-arrivals-wrapper">
+                        <div class="join-us-for">Join us for new arrivals</div>
+                    </div>
+                    <div class="home1">HOME</div>
+                </div>
+                <div class="frame-container">
+                    <div class="e-mail-address-parent">
+                        <div class="e-mail-address">E-Mail Address</div>
+                        <div class="join-usline"></div>
+                    </div>
+                    <div class="collection-link-wrapper">
+                        <div class="collection-link">
+                            <div class="collection1">COLLECTION</div>
+                            <div class="frame-div">
+                                <div class="about-container">
+                                    <a class="about1">ABOUT</a>
+                                </div>
+                                <button class="join-us-boxgroup">
+                                    <div class="box"></div>
+                                    <b class="join-ustext">Join Us</b>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById("hOMEText1").addEventListener("click", function () {
+            window.location.href = "indexHome.html";
+        });
+
+        document.getElementById("cOLLECTIONText").addEventListener("click", function () {
+            window.location.href = "indexCollection.html";
+        });
+
+        document.getElementById("aBOUTText").addEventListener("click", function () {
+            window.location.href = "indexAbout.html";
+        });
+
+        document.getElementById("item").addEventListener("click", function () {
+            window.location.href = "indexSignup.html";
+        });
+
+        document.getElementById("lOGOUTText").addEventListener("click", function () {
+            window.location.href = "indexLogin.html";
+        });
+    </script>
+</body>
+</html>

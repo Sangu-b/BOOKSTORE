@@ -1,0 +1,348 @@
+.log-in {
+  color: #0071bd;
+}
+.already-a-member-container {
+  position: absolute;
+  top: 856px;
+  left: 295px;
+  font-size: 12.9px;
+  cursor: pointer;
+  color: var(--color-gray);
+}
+.sign-up {
+  height: 35px;
+  position: relative;
+  font-size: var(--font-size-6xl-8);
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  font-family: var(--font-nunito);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 115px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 22.1px 28px;
+  background-color: var(--color-gold);
+  position: absolute;
+  top: calc(50% + 136.9px);
+  left: calc(50% - 292.3px);
+  box-shadow: 0 3.7px 11.06px rgba(200, 211, 249, 0.6) inset,
+    3.7px 7.4px 11.06px rgba(78, 99, 141, 0.06);
+  border-radius: 73.75px;
+  width: 594.8px;
+  height: 73.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.sign-in:hover {
+  background-color: #cc9400;
+}
+.email {
+  position: relative;
+  font-size: var(--font-size-6xl-8);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--black-2-5);
+  text-align: left;
+  display: inline-block;
+  min-width: 79px;
+}
+.username-child {
+  border: 0.9px solid var(--color-black);
+  outline: 0;
+  background-color: var(--white);
+  align-self: stretch;
+  height: 75px;
+  border-radius: 73.75px;
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.username {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-8);
+}
+.new-password {
+  height: 35px;
+  position: relative;
+  font-size: var(--font-size-6xl-8);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-family: var(--font-nunito);
+  color: var(--black-2-5);
+  text-align: left;
+  display: inline-block;
+}
+.password-child {
+  border: 0.9px solid var(--color-black);
+  outline: 0;
+  background-color: var(--white);
+  align-self: stretch;
+  height: 73.8px;
+  border-radius: 73.75px;
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.password {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini-8);
+}
+.input-field,
+.login {
+  top: calc(50% - 210.6px);
+}
+.input-field {
+  position: absolute;
+  width: calc(100% - 10.2px);
+  right: 10.2px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+  gap: 33.2px;
+  max-width: 100%;
+}
+.login {
+  margin: 0;
+  left: calc(50% - 302.5px);
+  width: 100%;
+  height: 100%;
+}
+.image-icon,
+.login,
+.login-wrapper {
+  position: absolute;
+  max-width: 100%;
+}
+.login-wrapper {
+  top: calc(50% - 120px);
+  left: calc(50% - 657px);
+  width: 605px;
+  height: 421.2px;
+}
+.image-icon {
+  height: 62.89%;
+  width: 48.16%;
+  top: 22.46%;
+  right: 4.97%;
+  bottom: 14.65%;
+  left: 46.88%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.free-account,
+.please-enter-your {
+  display: block;
+}
+.please-enter-your-container,
+.sign-up1 {
+  position: absolute;
+  left: 63px;
+  color: var(--color-gray);
+}
+.please-enter-your-container {
+  margin: 0;
+  top: 304.6px;
+  font-size: var(--font-size-xl);
+}
+.sign-up1 {
+  top: 271px;
+  font-size: 25.2px;
+  display: inline-block;
+  min-width: 91px;
+  white-space: nowrap;
+}
+.products {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gold);
+  width: 1440px;
+  height: 230px;
+}
+.container {
+  position: absolute;
+  top: calc(50% - 441px);
+  left: calc(50% + 360px);
+  border-radius: 20px;
+  background-color: var(--white);
+  width: 250px;
+  height: 100px;
+}
+.about,
+.collection,
+.log-in1 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.log-in1 {
+  position: absolute;
+  width: calc(100% - 1322px);
+  top: calc(50% - 409px);
+  left: 1147px;
+  font-size: 32px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-family: var(--font-crimson-pro);
+  text-align: center;
+  display: inline-block;
+  min-width: 118px;
+  white-space: nowrap;
+}
+.about,
+.collection {
+  top: 105px;
+  font-family: var(--font-barlow);
+  height: 28px;
+}
+.about {
+  position: absolute;
+  left: 941px;
+  display: inline-block;
+  width: 74px;
+  min-width: 74px;
+}
+.collection {
+  left: 733px;
+  width: 143px;
+}
+.books,
+.collection,
+.home {
+  position: absolute;
+  display: inline-block;
+}
+.home {
+  text-decoration: none;
+  top: 105px;
+  left: 606px;
+  font-family: var(--font-barlow);
+  color: inherit;
+  width: 62px;
+  height: 28px;
+  min-width: 62px;
+  cursor: pointer;
+}
+.books {
+  top: 109px;
+  left: 153px;
+  font-size: 62.5px;
+  letter-spacing: 0.1em;
+  line-height: 14px;
+  font-family: var(--font-crimson-pro);
+  width: 219.3px;
+  height: 14px;
+}
+.logogroup-icon {
+  position: absolute;
+  height: 7.57%;
+  width: 6.85%;
+  top: 14.45%;
+  right: 89.4%;
+  bottom: 77.98%;
+  left: 3.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.signupdesktop2 {
+  max-width: 100%;
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-3xl-7);
+  color: var(--color-black);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 750px) {
+  .log-in1 {
+    font-size: 26px;
+  }
+  .books {
+    font-size: 50px;
+    line-height: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .email,
+  .new-password,
+  .sign-up {
+    font-size: var(--font-size-2xl);
+  }
+  .please-enter-your-container {
+    font-size: 16px;
+  }
+  .sign-up1 {
+    font-size: var(--font-size-xl);
+  }
+  .log-in1 {
+    font-size: 19px;
+  }
+  .about,
+  .collection,
+  .home {
+    font-size: var(--font-size-lg);
+  }
+  .books {
+    font-size: 37px;
+    line-height: 8px;
+  }
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-crimson-pro: "Crimson Pro";
+  --font-barlow: Barlow;
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --font-size-3xl-7: 22.7px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-6xl-8: 25.8px;
+  --font-size-2xl: 21px;
+
+  /* Colors */
+  --white: #fff;
+  --color-black: #000;
+  --color-gold: #ffc700;
+  --color-gray: #00233d;
+  --black-2-5: #444b59;
+
+  /* Gaps */
+  --gap-mini-8: 14.8px;
+
+  /* Border radiuses */
+  --br-54xl-8: 73.8px;
+}
